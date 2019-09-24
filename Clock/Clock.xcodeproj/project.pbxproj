@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3D03E42339D96D00893341 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D03E32339D96D00893341 /* SettingsViewController.swift */; };
 		CE51156F22C139FE00EA4354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51156E22C139FE00EA4354 /* AppDelegate.swift */; };
 		CE51157122C139FE00EA4354 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51157022C139FE00EA4354 /* ClockViewController.swift */; };
 		CE51157422C139FE00EA4354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE51157222C139FE00EA4354 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE3D03E32339D96D00893341 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CE51156B22C139FE00EA4354 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE51156E22C139FE00EA4354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE51157022C139FE00EA4354 /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				CE51157522C139FE00EA4354 /* Assets.xcassets */,
 				CE51157722C139FE00EA4354 /* LaunchScreen.storyboard */,
 				CE51157A22C139FE00EA4354 /* Info.plist */,
+				CE3D03E32339D96D00893341 /* SettingsViewController.swift */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				CE51157122C139FE00EA4354 /* ClockViewController.swift in Sources */,
 				CE51158122C13A8100EA4354 /* ClockView.swift in Sources */,
 				CE51156F22C139FE00EA4354 /* AppDelegate.swift in Sources */,
+				CE3D03E42339D96D00893341 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB72Z627AT;
 				INFOPLIST_FILE = Clock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +310,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB72Z627AT;
 				INFOPLIST_FILE = Clock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
